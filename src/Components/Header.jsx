@@ -24,11 +24,7 @@ const Header = () => {
         <Link to="/" aria-label="Logo Luigi">
           <Logo />
         </Link>
-        <div
-          className={menu.hamburger}
-          onClick={toggleMenu}
-          onTouchStart={toggleMenu}
-        >
+        <div className={menu.hamburger} onClick={toggleMenu}>
           {' '}
           <div className={menu.menuMobile}>
             <div className={menu.textMenu}>
