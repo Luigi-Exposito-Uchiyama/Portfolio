@@ -1,0 +1,123 @@
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 120px;
+}
+
+.eu {
+  color: var(--color-2);
+  font-family: 'Font4';
+}
+
+.anima::after {
+  content: '|';
+  margin-left: 5px;
+  opacity: 1;
+  animation: pisca 0.7s infinite;
+}
+
+@keyframes pisca {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.eu h1 {
+  max-width: 400px;
+  font-size: 2rem;
+}
+
+.eu p {
+  margin-top: 15px;
+  max-width: 450px;
+  font-size: 1rem;
+}
+
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.socialButton{
+  width: 150px;
+  height: 50px;
+  font-size: 1rem;
+}
+
+.eu2 button {
+  margin-top: 30px;
+  width: 150px;
+  height: 50px;
+  font-size: 1rem;
+}
+
+
+@media (max-width: 1000px) {
+  .intro {
+    margin-top: 60px;
+  }
+
+  .eu h1 { 
+    font-size: 1.5rem;
+  }
+
+  .foto {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 850px) {
+  .foto {
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+  .intro {
+    gap: 0px;
+    margin-top: 100px;
+  }
+
+  .eu2 p {
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  .intro {
+    gap: 20px;
+    margin-top: 30px;
+  }
+
+  .eu h1 {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .eu p {
+    max-width: 300px;
+    font-size: 1rem;
+    margin: 15px auto 0 auto;
+  }
+
+  .social {
+    max-width: 320px;
+  }
+
+  .social .socialButton {
+    order: 2;
+  }
+}
+
+@media (max-width: 560px) {
+  .eu {
+    order: 2;
+  }
+}

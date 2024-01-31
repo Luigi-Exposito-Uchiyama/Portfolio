@@ -1,0 +1,44 @@
+.bgHeader {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+  flex-wrap: wrap;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: var(--color-2);
+  font-family: 'Font4';
+}
+
+.header li + li {
+  margin-left: 30px;
+}
+
+.header li:hover {
+  color: var(--color-4);
+}
+
+@media (max-width: 750px) {
+  .bgHeader .button {
+    display: none;
+  } 
+
+  .header li + li{
+    margin-left: 60px;
+  }
+}
+
+@media (max-width: 700px) {
+  .header {
+    display: block;
+  }
+
+  .header li + li {
+    margin: 15px 0px;
+  }
+}
+

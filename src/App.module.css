@@ -1,0 +1,66 @@
+body,
+h1,
+h2,
+h3,
+ul,
+li,
+p {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Font4';
+}
+
+body {
+    background: var(--color-1);
+    overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+@font-face {
+  font-family: 'Font1'; /* Dê um nome à fonte */
+  src: url('./fonts/TropiLand-L3MPg.ttf') format('truetype'); /* Substitua pelo caminho da sua fonte e formato */
+}
+
+@font-face {
+  font-family: 'Font2'; /* Dê um nome à fonte */
+  src: url('./fonts/minagi-bristone.ttf') format('truetype'); /* Substitua pelo caminho da sua fonte e formato */
+}
+
+@font-face {
+  font-family: 'Font3'; /* Dê um nome à fonte */
+  src: url('./fonts/Poppins-Bold.ttf') format('truetype'); /* Substitua pelo caminho da sua fonte e formato */
+}
+
+@font-face {
+  font-family: 'Font4'; /* Dê um nome à fonte */
+  src: url('./fonts/Poppins-Regular.ttf') format('truetype'); /* Substitua pelo caminho da sua fonte e formato */
+}
+
+.cor1 {
+  color: var(--color-4);
+}
+
+.cor2 {
+  color: var(--color-5);
+}
+
+:root {
+  --color-1: #212121;
+  --color-2: #dedede;
+  --color-3: linear-gradient(to bottom right, #40C9FF, #E81CFF);
+  --color-4: #E81CFF;
+  --color-5: #40C9FF;
+}
+
+.poppins-bold {
+  font-family: 'Font3';
+}

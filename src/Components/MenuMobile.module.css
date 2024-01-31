@@ -1,0 +1,101 @@
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.menuMobile {
+  display: flex;
+  text-align: center;
+}
+
+.textMenu {
+  margin-right: 10px;
+  color: var(--color-4);
+}
+
+.menuHamburguer {
+  display: flex;
+  padding: 0.2rem 0rem;
+  border: none;
+  background: none;
+}
+
+.menuHamburguerFechado {
+  margin-top: 2px;
+  width: 20px;
+  height: 2px;
+  background: var(--color-4);
+}
+
+.menuHamburguerFechado::before {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: var(--color-4);
+  margin-top: 7px;
+  transition: 0.3s;
+  position: relative;
+}
+
+.menuHamburguerFechado::after {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: var(--color-4);
+  margin-top: 5px;
+  transition: 0.3s;
+  position: relative;
+  }
+
+  .menuHamburguerAberto {
+    border-top: none;
+    background: none;
+  }
+  .menuHamburguerAberto::before {
+    transform: rotate(135deg);
+  }
+  .menuHamburguerAberto::after {
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+
+@media (max-width: 750px) {
+  .menuFechado {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background: var(--color-1);
+    width: 100%;
+    top: 120px;
+    right: 0px;
+    transition: 0.6s;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+    z-index: 1;
+  }
+
+  .menuAberto {
+    height: 40px;
+    visibility: visible;
+    overflow-y: hidden;
+    background: var(--color-1);
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+@media (max-width: 700px) {
+  .menuFechado {
+    top: 100px;
+  }
+
+  .menuAberto {
+    height: 170px;
+    background: var(--color-1)
+  }
+}
