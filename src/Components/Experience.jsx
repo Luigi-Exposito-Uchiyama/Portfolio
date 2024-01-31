@@ -5,7 +5,7 @@ import Button from '../General/Button';
 import Teleperformance from '../Assets/Teleperformance.png';
 import ThiagoPessoaJoias from '../Assets/ThiagoPessoaJoias.png';
 import Fiap from '../Assets/Fiap.png';
-import Origamid from '../Assets/origamid.png';
+import Origamid from '../Assets/Curso.png';
 import '../App.module.css';
 import { Link } from 'react-router-dom';
 
