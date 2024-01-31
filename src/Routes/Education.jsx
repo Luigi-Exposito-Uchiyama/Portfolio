@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../Components/Curriculo.module.css';
 import Fiap from '../Assets/Fiap.png';
-import Origamid from '../Assets/origamid.png';
+import Origamid from '../Assets/Origamid.png';
 import Education from '../Assets/education.png';
 
 const EducationPage = () => {
