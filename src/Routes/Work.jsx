@@ -1,9 +1,8 @@
 import React from 'react';
 import { ReactComponent as Perfil } from '../Assets/Perfil.svg';
 import styles from '../Components/SobreMim.module.css';
-import styles2 from '../General/Button.module.css';
 import Detalhes from '../Components/Detalhes';
-import { Link } from 'react-router-dom';
+import Button from '../General/Button';
 
 const Work = () => {
   return (
@@ -19,11 +18,13 @@ const Work = () => {
             aprendizado, estou preparado para enfrentar desafios e oferecer uma
             contribuição significativa no campo do desenvolvimento Full Stack.
           </p>
-          <button className={styles2.button}>
-            <Link to="/contact">
-              CONTACT ME<span className={styles2.outraFont}>!</span>
-            </Link>
-          </button>
+          <a
+            className={styles.socialButton}
+            href="/curriculo.pdf"
+            download="Currículo - Luigi Uchiyama.pdf"
+          >
+            <Button>Meu Currículo</Button>
+          </a>
         </div>
         <div>
           <Perfil className={styles.foto} />

@@ -21,9 +21,14 @@ const SobreMim = () => {
           conteúdo há mais de 2 anos.
         </p>
         <div className={styles.social}>
-          <Link className={styles.socialButton} to="/contact">
-            <Button>CONTACT ME</Button>
-          </Link>
+          <a
+            className={styles.socialButton}
+            href="/curriculo.pdf"
+            download="Currículo - Luigi Uchiyama.pdf"
+          >
+            <Button>Meu Currículo</Button>
+          </a>
+
           <div className={Social.card}>
             <Link
               to="https://www.instagram.com/dev.luigiuchiyama/"
