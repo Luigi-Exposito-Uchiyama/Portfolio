@@ -150,6 +150,10 @@
     margin: 0px 0px 45px 0px;
   }
 
+  .detalhes p{
+    max-width: 220px;
+  }
+
   .video {
     max-width: 300px;
   }
