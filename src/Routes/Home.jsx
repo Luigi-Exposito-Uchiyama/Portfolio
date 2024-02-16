@@ -1,13 +1,13 @@
 import React from 'react';
 import SobreMim from '../Components/SobreMim';
-import Experience from '../Components/Experience';
+import Detalhes from '../Components/Detalhes';
 import SobreMim2 from '../Components/SobreMim2';
 
 const Home = () => {
   return (
     <div>
       <SobreMim />
-      <Experience />
+      <Detalhes />
       <SobreMim2 />
     </div>
   );

@@ -2,7 +2,7 @@ import React from 'react';
 import { ReactComponent as Perfil } from '../Assets/Perfil.svg';
 import styles from '../Components/SobreMim.module.css';
 import styles2 from '../General/Button.module.css';
-import Experience from '../Components/Experience';
+import Detalhes from '../Components/Detalhes';
 import { Link } from 'react-router-dom';
 
 const Work = () => {
@@ -30,7 +30,7 @@ const Work = () => {
         </div>
       </main>
       <div>
-        <Experience />
+        <Detalhes />
       </div>
     </section>
   );

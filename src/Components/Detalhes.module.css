@@ -64,6 +64,10 @@
   .curriculo {
     width: 250px;
   }
+
+  .detalhes {
+    left: 20%;
+  }
 }
 
 @media (max-width: 850px) {
@@ -78,5 +82,9 @@
 
   .curriculo + .curriculo {
     margin-top: 30px;
+  }
+
+  .detalhes {
+    left: 25%;
   }
 }

@@ -27,6 +27,7 @@ const CertificatesPage = () => {
     autoplaySpeed: 3000,
     swipe: true,
     centerPadding: '30px',
+    arrows: false,
   };
 
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Experience.module.css';
+import styles from './Detalhes.module.css';
 import styles2 from '../General/Button.module.css';
 import Button from '../General/Button';
 import Teleperformance from '../Assets/Teleperformance.png';
@@ -9,7 +9,7 @@ import Origamid from '../Assets/Curso.png';
 import '../App.module.css';
 import { Link } from 'react-router-dom';
 
-const Experience = () => {
+const Detalhes = () => {
   return (
     <section className={`container2 ${styles.carreira}`}>
       <div className={styles.curriculo}>
@@ -91,4 +91,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Detalhes;
