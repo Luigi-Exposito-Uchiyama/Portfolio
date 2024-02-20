@@ -40,22 +40,22 @@ ul {
 
 @font-face {
   font-family: 'Font1'; 
-  src: url('./fonts/TropiLand-L3MPg.ttf') format('truetype'); 
+  src: url('./Fonts/TropiLand-L3MPg.ttf') format('truetype'); 
 }
 
 @font-face {
   font-family: 'Font2'; 
-  src: url('./fonts/minagi-bristone.ttf') format('truetype'); 
+  src: url('./Fonts/minagi-bristone.ttf') format('truetype'); 
 }
 
 @font-face {
   font-family: 'Font3'; 
-  src: url('./fonts/Poppins-Bold.ttf') format('truetype'); 
+  src: url('./Fonts/Poppins-Bold.ttf') format('truetype'); 
 }
 
 @font-face {
   font-family: 'Font4'; 
-  src: url('./fonts/Poppins-Regular.ttf') format('truetype'); 
+  src: url('./Fonts/Poppins-Regular.ttf') format('truetype'); 
 }
 
 .cor1 {
