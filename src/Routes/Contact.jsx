@@ -1,4 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
+/* IMAGENS */
 import Twitch from '../Assets/twitch.svg';
 import Github from '../Assets/Github2.svg';
 import Tiktok from '../Assets/Tiktok2.svg';
@@ -6,8 +9,9 @@ import Linkedin from '../Assets/linkedin 2.0.svg';
 import Gmail from '../Assets/Gmail.svg';
 import Insta from '../Assets/insta2.svg';
 import Whats from '../Assets/wpp.svg';
-import styles from '../Components/RedesSociais.module.css';
-import { Link } from 'react-router-dom';
+
+/* CSS */
+import styles from '../Styles/RedesSociais.module.css';
 
 const Contact = () => {
   return (

@@ -1,18 +1,14 @@
 .button {
   position: relative;
-  padding: 10px 22px;
+  padding: 12px 22px;
   border-radius: 6px;
   border: none;
   color: #fff;
   cursor: pointer;
   background-color: #7d2ae8;
   transition: all 0.2s ease;
-  font-family: 'Font2';
-  font-size: 1rem;
-}
-
-.outraFont {
   font-family: 'Font4';
+  font-size: 1rem;
 }
 
 .button:active {

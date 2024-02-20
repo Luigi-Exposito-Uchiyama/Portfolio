@@ -1,6 +1,6 @@
 import React from 'react';
 import TeleperformanceImg from '../Assets/Teleperformance.png';
-import styles from '../Components/Curriculo.module.css';
+import styles from '../Styles/Curriculo.module.css';
 import geral from '../App.module.css';
 
 const Teleperformance = () => {

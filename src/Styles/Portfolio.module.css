@@ -1,0 +1,119 @@
+.video {
+  max-width: 600px;
+  border-radius: 20px;
+}
+
+.informacao {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: var(--color-5);
+}
+
+.tituloMobile {
+  display: none;
+  font-size: 1.5rem;
+  margin: 0px auto 15px auto;
+  color: var(--color-5);
+}
+
+.informacao h1 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.botoes{
+  margin-top: 30px;
+}
+
+.botoes .botao + .botao{
+  margin-left: 30px;
+}
+
+.portfolio {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto; 
+}
+
+.portfolio  + .portfolio{
+  margin-top: 200px;
+}
+
+.repositorio::before {
+  content: "";
+  background-image: url("../Assets/Github.png");
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px; 
+  background-repeat: no-repeat;
+}
+
+.link::before {
+  content: "";
+  background-image: url("../Assets/Link.png");
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px; 
+  background-repeat: no-repeat;
+}
+
+
+.portfolio p {
+  color: var(--color-2);
+  margin: 0px 30px;
+}
+@media (max-width: 1250px) {
+  .portfolio {
+    flex-wrap: wrap;
+    max-width: 700px;
+    position: relative;
+  }
+
+  .videoRight {
+    order: 2;
+  }
+
+  .informacao {
+    order: 2;
+  }
+
+  .tituloMobile {
+    display: block;
+  }
+
+  .informacao h1 {
+    display: none;
+  }
+
+  .video {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .portfolio  + .portfolio{
+    margin-top: 130px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .portfolio {
+    max-width: 500px;
+  }
+
+  .portfolio  + .portfolio{
+    margin-top: 90px;
+  }
+}
+
+@media (max-width: 550px) {
+  .portfolio {
+    max-width: 400px;
+  }
+}

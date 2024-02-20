@@ -1,8 +1,14 @@
 import React from 'react';
-import { ReactComponent as Perfil } from '../Assets/Perfil.svg';
-import styles from '../Components/SobreMim.module.css';
-import Detalhes from '../Components/Detalhes';
+
+/* ACESSIBILIDADE */
+import Detalhes from '../General/Detalhes';
 import Button from '../General/Button';
+
+/* IMAGENS */
+import { ReactComponent as Perfil } from '../Assets/Perfil.svg';
+
+/* CSS */
+import styles from '../Styles/Home.module.css';
 
 const Work = () => {
   return (
@@ -23,7 +29,9 @@ const Work = () => {
             href="/curriculo.pdf"
             download="Currículo - Luigi Uchiyama.pdf"
           >
-            <Button>Meu Currículo</Button>
+            <Button>
+              <span className={styles.download}>Meu Currículo</span>
+            </Button>
           </a>
         </div>
         <div>

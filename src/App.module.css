@@ -39,23 +39,23 @@ ul {
 }
 
 @font-face {
-  font-family: 'Font1'; /* Dê um nome à fonte */
-  src: url('./fonts/TropiLand-L3MPg.ttf') format('truetype'); /* Substitua pelo caminho da sua fonte e formato */
+  font-family: 'Font1'; 
+  src: url('./Fonts/TropiLand-L3MPg.ttf') format('truetype'); 
 }
 
 @font-face {
-  font-family: 'Font2'; /* Dê um nome à fonte */
-  src: url('./fonts/minagi-bristone.ttf') format('truetype'); /* Substitua pelo caminho da sua fonte e formato */
+  font-family: 'Font2'; 
+  src: url('./Fonts/minagi-bristone.ttf') format('truetype'); 
 }
 
 @font-face {
-  font-family: 'Font3'; /* Dê um nome à fonte */
-  src: url('./fonts/Poppins-Bold.ttf') format('truetype'); /* Substitua pelo caminho da sua fonte e formato */
+  font-family: 'Font3'; 
+  src: url('./Fonts/Poppins-Bold.ttf') format('truetype'); 
 }
 
 @font-face {
-  font-family: 'Font4'; /* Dê um nome à fonte */
-  src: url('./fonts/Poppins-Regular.ttf') format('truetype'); /* Substitua pelo caminho da sua fonte e formato */
+  font-family: 'Font4'; 
+  src: url('./Fonts/Poppins-Regular.ttf') format('truetype'); 
 }
 
 .cor1 {

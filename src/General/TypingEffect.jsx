@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import styles from '../Components/SobreMim.module.css';
+
+/* CSS */
+import styles from '../Styles/Home.module.css';
 
 function TypingEffect() {
   const [typingText, setTypingText] = useState('');

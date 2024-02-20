@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.module.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Header from './Components/Header';
-import Footer from './Components/Footer';
+import Header from './General/Header';
+import Footer from './General/Footer';
 import Home from './Routes/Home';
 import Work from './Routes/Work';
 import Portfolio from './Routes/Portfolio';

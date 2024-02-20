@@ -1,11 +1,17 @@
 import React, { useEffect, useState } from 'react';
-import { ReactComponent as Experience } from '../Assets/experience.svg';
-import styles from '../Components/Curriculo.module.css';
 import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+
+/* ACESSIBILIDADE */
 import Teleperformance from '../Empresas/Teleperformance';
 import ThiagoPessoa from '../Empresas/ThiagoPessoa';
+
+/* IMAGENS */
+import { ReactComponent as Experience } from '../Assets/experience.svg';
+
+/* CSS */
+import styles from '../Styles/Curriculo.module.css';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const ExperiencePage = () => {
   const [showSlider, setShowSlider] = useState(true);

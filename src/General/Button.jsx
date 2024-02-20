@@ -1,4 +1,6 @@
 import React from 'react';
+
+/* CSS */
 import styles from './Button.module.css';
 
 const Button = ({ children }) => {
