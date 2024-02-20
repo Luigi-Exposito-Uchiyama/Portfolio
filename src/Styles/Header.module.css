@@ -4,6 +4,7 @@
   align-items: center;
   padding-top: 30px;
   flex-wrap: wrap;
+  max-width: 1200px;
 }
 
 .header {
