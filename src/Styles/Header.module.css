@@ -5,6 +5,7 @@
   padding-top: 30px;
   flex-wrap: wrap;
   max-width: 1200px;
+  margin: 0 auto;
 }
 
 .header {
