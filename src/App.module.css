@@ -11,8 +11,8 @@ p {
 }
 
 body {
-    background: var(--color-1);
-    overflow-x: hidden;
+  background: var(--color-1);
+  overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {

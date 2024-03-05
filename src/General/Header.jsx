@@ -55,11 +55,6 @@ const Header = () => {
               </Link>
             </li>
             <li className={styles.menuItem}>
-              <Link to="/work" onClick={closeMenu}>
-                Work
-              </Link>
-            </li>
-            <li className={styles.menuItem}>
               <Link to="/portfolio" onClick={closeMenu}>
                 Portfólio
               </Link>

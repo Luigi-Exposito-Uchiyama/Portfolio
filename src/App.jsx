@@ -4,7 +4,6 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './General/Header';
 import Footer from './General/Footer';
 import Home from './Routes/Home';
-import Work from './Routes/Work';
 import Portfolio from './Routes/Portfolio';
 import Contact from './Routes/Contact';
 import Experience from './Routes/Experience';
@@ -18,7 +17,6 @@ const App = () => {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/work" element={<Work />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/experience" element={<Experience />} />
