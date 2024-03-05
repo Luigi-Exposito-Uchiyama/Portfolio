@@ -68,6 +68,10 @@
   .detalhes {
     left: 20%;
   }
+
+  .carreira {
+    margin-top: 60px;
+  }
 }
 
 @media (max-width: 850px) {

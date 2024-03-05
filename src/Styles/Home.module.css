@@ -112,6 +112,19 @@
   .foto {
     max-width: 300px;
   }
+    
+  .bgDados {
+    max-width: 700px;
+    padding-top: 60px;
+  }
+
+  .dados p {
+    font-size: 1rem;
+  }
+
+  .tamanho {
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 850px) {
@@ -123,6 +136,18 @@
   .intro {
     gap: 0px;
     margin-top: 100px;
+  }
+
+  .bgDados {
+    text-align: center;
+  }
+
+  .dados {
+    display: block;
+  }
+
+  .dados p + p{
+    margin-top: 15px;
   }
 }
 
