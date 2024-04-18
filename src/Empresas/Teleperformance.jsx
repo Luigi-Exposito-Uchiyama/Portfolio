@@ -8,7 +8,7 @@ const Teleperformance = () => {
     <div className={styles.bgExperience}>
       <div className={styles.detalhes}>
         <img src={TeleperformanceImg} alt="Teleperformance" />
-        <p>Jovem Aprendiz | Março/23 - Atual</p>
+        <p>Jovem Aprendiz | Março/23 - Abril/24</p>
       </div>
       <div className={styles.descricao}>
         <p>
