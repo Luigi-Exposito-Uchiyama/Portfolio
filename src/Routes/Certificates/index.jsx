@@ -2,20 +2,20 @@ import React from 'react';
 import Slider from 'react-slick';
 
 /* IMAGENS */
-import ResponsiveWebDevelopment from '../Assets/Certifications/Responsive Web Development.png';
-import FormaçãoSocial from '../Assets/Certifications/Formação Social e Sustentabilidade.png';
-import CSSFlexbox from '../Assets/Certifications/CSS Flexbox.png';
-import CSSGridLayout from '../Assets/Certifications/CSS Grid Layout.png';
-import HTMLeCSSparaIniciantes from '../Assets/Certifications/HTML e CSS para Iniciantes.png';
-import JavaScriptCompletoES6 from '../Assets/Certifications/JavaScript Completo ES6+.png';
-import ReactCompleto from '../Assets/Certifications/React Completo.png';
-import UIDesignAvançado from '../Assets/Certifications/UI Design Avançado.png';
-import UIDesignparaIniciantes from '../Assets/Certifications/UI Design para Iniciantes.png';
-import WordPressComoCMS from '../Assets/Certifications/WordPress Como CMS.png';
-import { ReactComponent as Certificado } from '../Assets/certification.svg';
+import ResponsiveWebDevelopment from '../../Assets/Certifications/Responsive Web Development.png';
+import FormaçãoSocial from '../../Assets/Certifications/Formação Social e Sustentabilidade.png';
+import CSSFlexbox from '../../Assets/Certifications/CSS Flexbox.png';
+import CSSGridLayout from '../../Assets/Certifications/CSS Grid Layout.png';
+import HTMLeCSSparaIniciantes from '../../Assets/Certifications/HTML e CSS para Iniciantes.png';
+import JavaScriptCompletoES6 from '../../Assets/Certifications/JavaScript Completo ES6+.png';
+import ReactCompleto from '../../Assets/Certifications/React Completo.png';
+import UIDesignAvançado from '../../Assets/Certifications/UI Design Avançado.png';
+import UIDesignparaIniciantes from '../../Assets/Certifications/UI Design para Iniciantes.png';
+import WordPressComoCMS from '../../Assets/Certifications/WordPress Como CMS.png';
+import { ReactComponent as Certificado } from '../../Assets/certification.svg';
 
 /* CSS */
-import styles from '../Styles/Curriculo.module.css';
+import styles from '../../Styles/Curriculo.module.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 

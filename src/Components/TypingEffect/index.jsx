@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 /* CSS */
-import styles from '../Styles/Home.module.css';
+import styles from './TypingEffect.module.css';
 
 function TypingEffect() {
   const [typingText, setTypingText] = useState('');

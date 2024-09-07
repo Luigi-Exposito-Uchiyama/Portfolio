@@ -1,12 +1,12 @@
 import React from 'react';
 
 /* IMAGENS */
-import Fiap from '../Assets/Fiap.png';
-import Origamid from '../Assets/Curso.png';
-import Education from '../Assets/education.png';
+import Fiap from '../../Assets/Fiap.png';
+import Origamid from '../../Assets/Curso.png';
+import Education from '../../Assets/education.png';
 
 /* CSS */
-import styles from '../Styles/Curriculo.module.css';
+import styles from '../../Styles/Curriculo.module.css';
 
 const EducationPage = () => {
   return (

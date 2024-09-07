@@ -1,7 +1,7 @@
 import React from 'react';
-import ThiagoPessoaJoias from '../Assets/ThiagoPessoaJoias.png';
-import styles from '../Styles/Curriculo.module.css';
-import geral from '../App.module.css';
+import ThiagoPessoaJoias from '../../Assets/ThiagoPessoaJoias.png';
+import styles from '../../Styles/Curriculo.module.css';
+import geral from '../../App.module.css';
 
 const ThiagoPessoa = () => {
   return (

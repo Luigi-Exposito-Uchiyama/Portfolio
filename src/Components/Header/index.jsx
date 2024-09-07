@@ -2,15 +2,15 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 /* ACESSIBILIDADE */
-import Button from './Botao';
+import Button from '../Button';
 
 /* IMAGENS */
-import { ReactComponent as Logo } from '../Assets/Logo Luigi.svg';
+import { ReactComponent as Logo } from '../../Assets/Logo Luigi.svg';
 
 /* CSS */
-import '../App.module.css';
-import styles from '../Styles/Header.module.css';
-import menu from '../Styles/MenuMobile.module.css';
+import '../../App.module.css';
+import styles from './Header.module.css';
+import menu from './MenuMobile.module.css';
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);

@@ -2,18 +2,18 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 /* ACESSIBILIDADE */
-import styles2 from '../Styles/Button.module.css';
-import Button from './Botao';
+import styles2 from '../Button/Button.module.css';
+import Button from '../Button';
 
 /* IMAGENS */
-import Teleperformance from '../Assets/Teleperformance.png';
-import ThiagoPessoaJoias from '../Assets/ThiagoPessoaJoias.png';
-import Fiap from '../Assets/Fiap.png';
-import Origamid from '../Assets/Curso.png';
+import Teleperformance from '../../Assets/Teleperformance.png';
+import ThiagoPessoaJoias from '../../Assets/ThiagoPessoaJoias.png';
+import Fiap from '../../Assets/Fiap.png';
+import Origamid from '../../Assets/Curso.png';
 
 /* CSS */
-import '../App.module.css';
-import styles from '../Styles/Detalhes.module.css';
+import '../../App.module.css';
+import styles from './Detalhes.module.css';
 
 const Detalhes = () => {
   return (

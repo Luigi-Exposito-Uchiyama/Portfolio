@@ -2,21 +2,21 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 /* ACESSIBILIDADE */
-import Detalhes from '../Components/Detalhes';
-import Button from '../Components/Botao';
-import TypingEffect from '../Components/TypingEffect';
+import Detalhes from '../../Components/Detalhes';
+import Button from '../../Components/Button';
+import TypingEffect from '../../Components/TypingEffect';
 
 /* IMAGENS */
-import Instagram from '../Assets/Instagram.png';
-import Github from '../Assets/Github.png';
-import Whatsapp from '../Assets/Whatsapp.png';
-import Linkedin from '../Assets/linkedin.png';
-import { ReactComponent as Perfil } from '../Assets/Perfil.svg';
+import Instagram from '../../Assets/Instagram.png';
+import Github from '../../Assets/Github.png';
+import Whatsapp from '../../Assets/Whatsapp.png';
+import Linkedin from '../../Assets/linkedin.png';
+import { ReactComponent as Perfil } from '../../Assets/Perfil.svg';
 
 /* CSS */
-import '../App.module.css';
-import styles from '../Styles/Home.module.css';
-import Social from '../Styles/RedesSociais.module.css';
+import '../../App.module.css';
+import styles from './Home.module.css';
+import Social from '../../Styles/RedesSociais.module.css';
 
 const Home = () => {
   return (

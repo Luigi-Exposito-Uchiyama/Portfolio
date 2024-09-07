@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 /* CSS */
-import styles from '../Styles/Footer.module.css';
+import styles from './Footer.module.css';
 
 const Footer = () => {
   const [year, setYear] = useState(new Date().getFullYear());

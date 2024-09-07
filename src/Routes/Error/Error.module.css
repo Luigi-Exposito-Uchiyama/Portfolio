@@ -1,0 +1,30 @@
+.errorContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.errorContent {
+  max-width: 600px;
+  padding: 20px;
+}
+
+.errorCode {
+  font-size: 6rem;
+  color: var(--color-4);
+  margin-bottom: 20px;
+}
+
+.errorMessage {
+  font-size: 2rem;
+  color: var(--color-5);
+  margin-bottom: 10px;
+}
+
+.errorDescription {
+  font-size: 1.25rem;
+  color: var(--color-2);
+  margin-bottom: 30px;
+}

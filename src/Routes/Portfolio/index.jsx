@@ -2,14 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 /* ACESSIBILIDADE */
-import Button from '../Components/Botao';
+import Button from '../../Components/Button';
 
 /* IMAGENS */
-import { ReactComponent as PortfolioImg } from '../Assets/portfolio.svg';
+import { ReactComponent as PortfolioImg } from '../../Assets/portfolio.svg';
 
 /* CSS */
-import styles from '../Styles/Portfolio.module.css';
-import title from '../Styles/Curriculo.module.css';
+import styles from './Portfolio.module.css';
+import title from '../../Styles/Curriculo.module.css';
 
 const Project = ({
   title,
