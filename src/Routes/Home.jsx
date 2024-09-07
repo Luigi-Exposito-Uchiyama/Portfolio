@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 /* ACESSIBILIDADE */
-import Detalhes from '../General/Detalhes.jsx';
-import Button from '../General/Button';
-import TypingEffect from '../General/TypingEffect.jsx';
+import Detalhes from '../Components/Detalhes';
+import Button from '../Components/Botao';
+import TypingEffect from '../Components/TypingEffect';
 
 /* IMAGENS */
 import Instagram from '../Assets/Instagram.png';

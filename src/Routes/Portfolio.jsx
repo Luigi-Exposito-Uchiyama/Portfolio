@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 /* ACESSIBILIDADE */
-import Button from '../General/Button';
+import Button from '../Components/Botao';
 
 /* IMAGENS */
 import { ReactComponent as PortfolioImg } from '../Assets/portfolio.svg';
@@ -83,6 +83,14 @@ const Portfolio = () => {
         <PortfolioImg className={title.icons} />
         <h1>Portfólio</h1>
       </div>
+      <Project
+        title="Burguer Mania"
+        description="Apresento o site da Burguer Mania, criado com React e integrado a uma API para fornecer dados dinâmicos sobre nossos hambúrgueres. O site oferece uma navegação prática e intuitiva, permitindo explorar o cardápio com descrições, ingredientes e imagens de cada hambúrguer, garantindo uma experiência envolvente e de qualidade."
+        repositoryLink="https://github.com/Luigi-Exposito-Uchiyama/Burguer-Mania"
+        projectLink="https://burguermania.vercel.app"
+        videoSource="/Burguer Mania.mp4"
+        videoPosition="right"
+      />
       <Project
         title="Lavagem Aquarius"
         description="Apresento o site do Lava-Rápido Aquarius, uma plataforma virtual que oferece uma visão abrangente dos serviços de lavagem disponíveis, assim como sua localização conveniente para os clientes. Este site foi projetado para transmitir qualidade e praticidade, apresentando informações essenciais de forma clara e acessível aos visitantes."
